@@ -1,4 +1,4 @@
-@regresion
+
 Feature: operaciones de pre auth
 
   Background: obtenemos el token

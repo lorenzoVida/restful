@@ -4,7 +4,7 @@ Feature: operaciones de refound
     Given url apiUrl
     Then def preauthResponse = call read('classpath:CARD/preauth/preauth.feature')
     Then def ticketNumber = preauthResponse.ticket
-    Then print "****** " + ticketNumber
+    Then print "****** " rr+ ticketNumber
 
   Scenario: void del charge
     Given path '/card/v1/charges/{{ticketNumber}}'
@@ -14,7 +14,6 @@ Feature: operaciones de refound
   "fullResponse": true,
   "amount": {
     "subtotalIva": 1055,
-    "subtotalIva0": 0,
     "ice": 0,
     "iva": 0,
     "currency": "##(currency)"

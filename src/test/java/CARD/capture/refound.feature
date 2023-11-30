@@ -1,4 +1,4 @@
-@regresion
+
 Feature: operaciones de refound
 
   Background: obtenemos el token

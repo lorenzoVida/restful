@@ -1,4 +1,4 @@
-@regresion
+
 Feature: operaciones de charge
 
     Background: obtenemos el token
@@ -15,8 +15,6 @@ Feature: operaciones de charge
   "token": "##(token)",
   "amount": {
     "subtotalIva": 8,
-    "subtotalIva0": 0,
-    "ice": 0,
     "iva": 0,
     "currency": "##(currency)"
   },

@@ -1,4 +1,4 @@
-@regresion
+
 Feature: operaciones de capture pre auth
 
   Background: obtenemos el token
@@ -15,9 +15,7 @@ Feature: operaciones de capture pre auth
     "ticketNumber": "##(ticketNumbers)",
     "amount": {
         "currency": "##(currency)",
-        "subtotalIva": 8,
         "iva": 0,
-        "subtotalIva0": 0.00,
         "ice": 0
     },
     "fullResponse": true
